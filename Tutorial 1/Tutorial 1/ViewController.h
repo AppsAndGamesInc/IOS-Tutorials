@@ -13,9 +13,11 @@
 @property (strong, nonatomic) IBOutlet UILabel *label1;
 @property (strong, nonatomic) IBOutlet UILabel *label2;
 @property (strong, nonatomic) IBOutlet UILabel *label3;
-
 @property (strong, nonatomic) IBOutlet UIButton *button;
 @property (strong, nonatomic) IBOutlet UISwitch *switches;
+@property (strong, nonatomic) IBOutlet UILabel *label5;
+@property (strong, nonatomic) IBOutlet UILabel *label6;
+@property (strong, nonatomic) IBOutlet UILabel *label4;
 
 @end
 
