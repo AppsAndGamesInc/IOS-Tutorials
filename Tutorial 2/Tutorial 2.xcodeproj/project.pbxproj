@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C290F211F519D5F009F4BBA /* FadingObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C290F201F519D5F009F4BBA /* FadingObjects.m */; };
 		8C38966B1F50341000E9CB95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38966A1F50341000E9CB95 /* main.m */; };
 		8C38966E1F50341000E9CB95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38966D1F50341000E9CB95 /* AppDelegate.m */; };
 		8C3896711F50341000E9CB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3896701F50341000E9CB95 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C290F1F1F519D5F009F4BBA /* FadingObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadingObjects.h; sourceTree = "<group>"; };
+		8C290F201F519D5F009F4BBA /* FadingObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadingObjects.m; sourceTree = "<group>"; };
 		8C3896661F50341000E9CB95 /* Tutorial 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C38966A1F50341000E9CB95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C38966C1F50341000E9CB95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				8CA2CBFA1F506338000F6A49 /* TrafficCam.h */,
 				8CA2CBFB1F506338000F6A49 /* TrafficCam.m */,
 				8C3896861F505E8800E9CB95 /* TimeAndDate.m */,
+				8C290F1F1F519D5F009F4BBA /* FadingObjects.h */,
+				8C290F201F519D5F009F4BBA /* FadingObjects.m */,
 				8C3896721F50341000E9CB95 /* Main.storyboard */,
 				8C3896781F50341000E9CB95 /* Assets.xcassets */,
 				8C38967A1F50341000E9CB95 /* LaunchScreen.storyboard */,
@@ -169,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C3896771F50341000E9CB95 /* Tutorial_2.xcdatamodeld in Sources */,
+				8C290F211F519D5F009F4BBA /* FadingObjects.m in Sources */,
 				8CA2CBFC1F506338000F6A49 /* TrafficCam.m in Sources */,
 				8C3896871F505E8800E9CB95 /* TimeAndDate.m in Sources */,
 				8C3896711F50341000E9CB95 /* ViewController.m in Sources */,

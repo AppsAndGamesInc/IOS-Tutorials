@@ -70,11 +70,27 @@
                                     <segue destination="BQq-Fy-3Zf" kind="show" id="Cnb-XO-sii"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERi-dL-Tt2">
+                                <rect key="frame" x="107" y="232" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ekb-2s-ECs"/>
+                                    <constraint firstAttribute="width" constant="200" id="RNh-ty-kat"/>
+                                </constraints>
+                                <state key="normal" title="Fading Object">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zwV-iP-5Lt" kind="show" id="5f6-jV-qxD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="BeZ-Lk-Xra" firstAttribute="top" secondItem="kDG-rv-j3c" secondAttribute="bottom" constant="10" id="Ddh-5k-hgY"/>
+                            <constraint firstItem="ERi-dL-Tt2" firstAttribute="top" secondItem="7mV-x7-cof" secondAttribute="bottom" constant="8" id="Mp6-HD-zCO"/>
                             <constraint firstItem="kDG-rv-j3c" firstAttribute="top" secondItem="fPW-pH-e0v" secondAttribute="bottom" constant="20" id="SpG-uS-dw8"/>
+                            <constraint firstItem="ERi-dL-Tt2" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="eEi-vs-U2x"/>
                             <constraint firstItem="7mV-x7-cof" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="gZ8-mp-KPz"/>
                             <constraint firstItem="kDG-rv-j3c" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="pAc-bC-vIo"/>
                             <constraint firstItem="7mV-x7-cof" firstAttribute="top" secondItem="BeZ-Lk-Xra" secondAttribute="bottom" constant="10" id="q5p-6t-7BA"/>
@@ -236,6 +252,99 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1095" y="-119"/>
+        </scene>
+        <!--Fading Objects-->
+        <scene sceneID="iwe-h2-Csr">
+            <objects>
+                <viewController id="zwV-iP-5Lt" customClass="FadingObjects" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uAm-bm-OpI"/>
+                        <viewControllerLayoutGuide type="bottom" id="OtX-3o-ndT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kjy-P8-b3M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiB-x0-hlE">
+                                <rect key="frame" x="96" y="72" width="222" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="BfV-CZ-IkS">
+                                <rect key="frame" x="47" y="176" width="320" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t8e-1A-YT9">
+                                <rect key="frame" x="183" y="213" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oS6-3b-yMV">
+                                <rect key="frame" x="115" y="252" width="185" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fade In"/>
+                                <connections>
+                                    <action selector="fadeIn:" destination="zwV-iP-5Lt" eventType="touchUpInside" id="CVB-6q-Vfb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVg-RX-TrC">
+                                <rect key="frame" x="115" y="307" width="185" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fade Out"/>
+                                <connections>
+                                    <action selector="fadeOut:" destination="zwV-iP-5Lt" eventType="touchUpInside" id="AXj-Zy-pph"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EX9-f9-FZ0">
+                                <rect key="frame" x="20" y="362" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Whats my alpha"/>
+                                <connections>
+                                    <action selector="whatsMyAlpha:" destination="zwV-iP-5Lt" eventType="touchUpInside" id="6kH-Ly-Ms6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpp-7U-a1S">
+                                <rect key="frame" x="101" y="400" width="213" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8k-Xv-Q7I">
+                                <rect key="frame" x="161" y="452" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="HIde"/>
+                                <connections>
+                                    <action selector="hide:" destination="zwV-iP-5Lt" eventType="touchUpInside" id="mTi-cx-2Ix"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLJ-6u-1l7">
+                                <rect key="frame" x="208" y="452" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reveal"/>
+                                <connections>
+                                    <action selector="reveal:" destination="zwV-iP-5Lt" eventType="touchUpInside" id="nNG-fB-zNk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="fadeInEnablDisa" destination="oS6-3b-yMV" id="YBe-N5-4mF"/>
+                        <outlet property="fadingLabel" destination="Kjy-P8-b3M" id="n1y-tZ-AYP"/>
+                        <outlet property="fadingSwitch" destination="t8e-1A-YT9" id="Rih-hw-edn"/>
+                        <outlet property="myAlpha" destination="Dpp-7U-a1S" id="kNH-rV-KUy"/>
+                        <outlet property="segmentControl" destination="BfV-CZ-IkS" id="cyW-iN-oKf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z1m-bO-Dxd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-273.91304347826087" y="908.96739130434787"/>
         </scene>
         <!--Traffic Cam-->
         <scene sceneID="Q0g-do-Hb2">
