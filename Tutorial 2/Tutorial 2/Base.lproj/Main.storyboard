@@ -29,11 +29,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDG-rv-j3c">
-                                <rect key="frame" x="132" y="85" width="151" height="40"/>
+                                <rect key="frame" x="107.66666666666669" y="84" width="200" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="151" id="U5Z-uO-6o8"/>
-                                    <constraint firstAttribute="height" constant="40" id="xYf-sT-0kh"/>
+                                    <constraint firstAttribute="height" constant="40" id="Ipa-4H-ex7"/>
+                                    <constraint firstAttribute="width" constant="200" id="juB-Us-oYL"/>
                                 </constraints>
                                 <state key="normal" title="Labels/Timer">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,12 +42,12 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="ZAg-DA-LDa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeZ-Lk-Xra">
-                                <rect key="frame" x="112" y="145" width="151" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeZ-Lk-Xra">
+                                <rect key="frame" x="107.66666666666669" y="134" width="200" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="34s-IX-Fd8"/>
-                                    <constraint firstAttribute="width" constant="151" id="S4t-oA-6DW"/>
+                                    <constraint firstAttribute="height" constant="40" id="ICa-yn-oNO"/>
+                                    <constraint firstAttribute="width" constant="200" id="vsh-Fg-NW5"/>
                                 </constraints>
                                 <state key="normal" title="Time/Date">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -56,27 +56,29 @@
                                     <segue destination="nMG-3G-Uu4" kind="show" id="Yf8-jX-kk2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mV-x7-cof">
-                                <rect key="frame" x="112" y="201" width="151" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mV-x7-cof">
+                                <rect key="frame" x="107.66666666666669" y="184" width="200" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="iaG-Rn-1hG"/>
-                                    <constraint firstAttribute="width" constant="151" id="ka4-XH-Woh"/>
+                                    <constraint firstAttribute="width" constant="200" id="aje-CB-bRq"/>
+                                    <constraint firstAttribute="height" constant="40" id="hpD-8M-9WC"/>
                                 </constraints>
                                 <state key="normal" title="Traffic Cam">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BQq-Fy-3Zf" kind="show" id="HeF-d8-Huv"/>
+                                    <segue destination="BQq-Fy-3Zf" kind="show" id="Cnb-XO-sii"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kDG-rv-j3c" firstAttribute="top" secondItem="fPW-pH-e0v" secondAttribute="bottom" constant="21" id="MB9-Et-ql0"/>
-                            <constraint firstItem="kDG-rv-j3c" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="gPE-cN-cxb"/>
-                            <constraint firstItem="BeZ-Lk-Xra" firstAttribute="top" secondItem="kDG-rv-j3c" secondAttribute="bottom" constant="30" id="mnQ-gP-avM"/>
-                            <constraint firstItem="BeZ-Lk-Xra" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="vc1-c2-vec"/>
+                            <constraint firstItem="BeZ-Lk-Xra" firstAttribute="top" secondItem="kDG-rv-j3c" secondAttribute="bottom" constant="10" id="Ddh-5k-hgY"/>
+                            <constraint firstItem="kDG-rv-j3c" firstAttribute="top" secondItem="fPW-pH-e0v" secondAttribute="bottom" constant="20" id="SpG-uS-dw8"/>
+                            <constraint firstItem="7mV-x7-cof" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="gZ8-mp-KPz"/>
+                            <constraint firstItem="kDG-rv-j3c" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="pAc-bC-vIo"/>
+                            <constraint firstItem="7mV-x7-cof" firstAttribute="top" secondItem="BeZ-Lk-Xra" secondAttribute="bottom" constant="10" id="q5p-6t-7BA"/>
+                            <constraint firstItem="BeZ-Lk-Xra" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="xzW-B0-LzW"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TG4-U1-tbt"/>
@@ -353,7 +355,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LLu-y7-Ruv" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rNj-X8-rXQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="rNj-X8-rXQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

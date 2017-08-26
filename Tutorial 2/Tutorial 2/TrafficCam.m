@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+	
+	scoreInt =0;
+	self.gameCounter.text = [NSString stringWithFormat:@"%i" , scoreInt];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,16 +27,43 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 - (IBAction)start:(id)sender {
+
+	if (scoreInt == 0){
+		self.gameCounter.text = @"0";
+		lightInt = 3;
+		self.trafficCam.image = [UIImage imageNamed:@"TrafficLight.png"];
+		[lightCounter invalidate];
+		lightCounter = [NSTimer scheduledTimerWithTimeInterval: 1.0 target:self selector:@selector(startCounter) userInfo:nil repeats:YES];
+
+	} else {
+		[scoreTimer invalidate];
+		scoreInt = 0;
+		[self.startStopButton setTitle:@"Start" forState:UIControlStateNormal];
+	}
+}
+
+-(void)startCounter {
+	lightInt -= 1;
+	[self.startStopButton setTitle:@"Stop" forState:UIControlStateNormal];
+	
+	if (lightInt == 2) {
+		self.trafficCam.image = [UIImage imageNamed:@"TrafficLight3.png"];
+	} else if( lightInt == 1){
+		self.trafficCam.image = [UIImage imageNamed:@"TrafficLight2.png"];
+	} else if (lightInt == 0){
+		self.trafficCam.image = [UIImage imageNamed:@"TrafficLight1.png"];
+		
+		[lightCounter invalidate];
+		
+		scoreTimer = [NSTimer scheduledTimerWithTimeInterval: 0.0001 target:self selector:@selector(scoreCounter) userInfo:nil repeats:YES];
+		
+		
+	}
+	
+}
+-(void)scoreCounter {
+	scoreInt +=1;
+	self.gameCounter.text = [NSString stringWithFormat:@"%i", scoreInt];
 }
 @end
