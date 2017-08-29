@@ -43,6 +43,7 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
+		<string>ObelixProB.ttf</string>
 		<string>StardustAdventure.ttf</string>
 	</array>
 </dict>

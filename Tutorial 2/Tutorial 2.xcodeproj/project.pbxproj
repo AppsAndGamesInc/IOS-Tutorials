@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8C290F211F519D5F009F4BBA /* FadingObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C290F201F519D5F009F4BBA /* FadingObjects.m */; };
+		8C297DE71F555AA900439612 /* TapMeFast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C297DE61F555AA900439612 /* TapMeFast.m */; };
+		8C297DEB1F55848200439612 /* RandomGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C297DEA1F55848200439612 /* RandomGenerator.m */; };
 		8C38966B1F50341000E9CB95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38966A1F50341000E9CB95 /* main.m */; };
 		8C38966E1F50341000E9CB95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38966D1F50341000E9CB95 /* AppDelegate.m */; };
 		8C3896711F50341000E9CB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3896701F50341000E9CB95 /* ViewController.m */; };
@@ -23,6 +25,11 @@
 /* Begin PBXFileReference section */
 		8C290F1F1F519D5F009F4BBA /* FadingObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadingObjects.h; sourceTree = "<group>"; };
 		8C290F201F519D5F009F4BBA /* FadingObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadingObjects.m; sourceTree = "<group>"; };
+		8C297DE51F555AA900439612 /* TapMeFast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapMeFast.h; sourceTree = "<group>"; };
+		8C297DE61F555AA900439612 /* TapMeFast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapMeFast.m; sourceTree = "<group>"; };
+		8C297DE81F555BBF00439612 /* ObelixProB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ObelixProB.ttf; sourceTree = "<group>"; };
+		8C297DE91F55848200439612 /* RandomGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomGenerator.h; sourceTree = "<group>"; };
+		8C297DEA1F55848200439612 /* RandomGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomGenerator.m; sourceTree = "<group>"; };
 		8C3896661F50341000E9CB95 /* Tutorial 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C38966A1F50341000E9CB95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C38966C1F50341000E9CB95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,11 +89,15 @@
 				8C290F1F1F519D5F009F4BBA /* FadingObjects.h */,
 				8C290F201F519D5F009F4BBA /* FadingObjects.m */,
 				8C3896721F50341000E9CB95 /* Main.storyboard */,
+				8C297DE51F555AA900439612 /* TapMeFast.h */,
+				8C297DE61F555AA900439612 /* TapMeFast.m */,
 				8C3896781F50341000E9CB95 /* Assets.xcassets */,
 				8C38967A1F50341000E9CB95 /* LaunchScreen.storyboard */,
 				8C38967D1F50341000E9CB95 /* Info.plist */,
 				8C3896751F50341000E9CB95 /* Tutorial_2.xcdatamodeld */,
 				8C3896691F50341000E9CB95 /* Supporting Files */,
+				8C297DE91F55848200439612 /* RandomGenerator.h */,
+				8C297DEA1F55848200439612 /* RandomGenerator.m */,
 			);
 			path = "Tutorial 2";
 			sourceTree = "<group>";
@@ -94,6 +105,7 @@
 		8C3896691F50341000E9CB95 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8C297DE81F555BBF00439612 /* ObelixProB.ttf */,
 				8C3896831F50535D00E9CB95 /* StardustAdventure.ttf */,
 				8C38966A1F50341000E9CB95 /* main.m */,
 			);
@@ -173,9 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C297DEB1F55848200439612 /* RandomGenerator.m in Sources */,
 				8C3896771F50341000E9CB95 /* Tutorial_2.xcdatamodeld in Sources */,
 				8C290F211F519D5F009F4BBA /* FadingObjects.m in Sources */,
 				8CA2CBFC1F506338000F6A49 /* TrafficCam.m in Sources */,
+				8C297DE71F555AA900439612 /* TapMeFast.m in Sources */,
 				8C3896871F505E8800E9CB95 /* TimeAndDate.m in Sources */,
 				8C3896711F50341000E9CB95 /* ViewController.m in Sources */,
 				8C38966E1F50341000E9CB95 /* AppDelegate.m in Sources */,
