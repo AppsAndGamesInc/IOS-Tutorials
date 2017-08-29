@@ -24,14 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)randomNumberButton:(id)sender {
+	int randomNum = arc4random() % 100;
+	self.randomNumberLabel.text = [NSString stringWithFormat:@"%i", randomNum];
 }
-*/
 
+- (IBAction)randomWordButton:(id)sender {
+	NSArray *words = @[@"Apple",@"Banana",@"Onion",@"Anthony",@"Strawberry",@"Lemon"];
+	int randWord = arc4random() % words.count;
+	self.randomWordLabel.text = words[randWord];
+}
 @end

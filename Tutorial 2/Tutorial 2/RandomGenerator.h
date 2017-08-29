@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface RandomGenerator : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *randomNumberLabel;
+@property (strong, nonatomic) IBOutlet UILabel *randomWordLabel;
+- (IBAction)randomNumberButton:(id)sender;
+- (IBAction)randomWordButton:(id)sender;
 
 @end

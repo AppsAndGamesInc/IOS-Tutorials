@@ -101,12 +101,44 @@
                                     <segue destination="Qcb-Bg-uDQ" kind="show" id="30c-B7-ZtX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AdA-iP-LpR">
+                                <rect key="frame" x="88" y="328" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="RVp-2m-ZSt"/>
+                                    <constraint firstAttribute="height" constant="40" id="XP4-V6-J32"/>
+                                </constraints>
+                                <state key="normal" title="Random Generator">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CRo-ZD-evp" kind="show" id="Zix-A7-8et"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQs-Kz-Ndm">
+                                <rect key="frame" x="88" y="376" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="MFA-7T-NjO"/>
+                                    <constraint firstAttribute="height" constant="40" id="RQk-LA-AlJ"/>
+                                </constraints>
+                                <state key="normal" title="Random Facts">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="e5f-bV-f5b" kind="show" id="uJr-dS-OBn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="fQs-Kz-Ndm" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="18n-hH-xkh"/>
                             <constraint firstItem="cSw-8H-AEc" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="5L4-p7-bqd"/>
                             <constraint firstItem="BeZ-Lk-Xra" firstAttribute="top" secondItem="kDG-rv-j3c" secondAttribute="bottom" constant="10" id="Ddh-5k-hgY"/>
+                            <constraint firstItem="AdA-iP-LpR" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="FMY-b9-NWt"/>
+                            <constraint firstItem="fQs-Kz-Ndm" firstAttribute="top" secondItem="AdA-iP-LpR" secondAttribute="bottom" constant="8" id="Gam-6v-avi"/>
                             <constraint firstItem="cSw-8H-AEc" firstAttribute="top" secondItem="ERi-dL-Tt2" secondAttribute="bottom" constant="8" id="HAK-nK-4KK"/>
+                            <constraint firstItem="AdA-iP-LpR" firstAttribute="top" secondItem="cSw-8H-AEc" secondAttribute="bottom" constant="8" id="JGr-nX-mW3"/>
                             <constraint firstItem="ERi-dL-Tt2" firstAttribute="top" secondItem="7mV-x7-cof" secondAttribute="bottom" constant="8" id="Mp6-HD-zCO"/>
                             <constraint firstItem="kDG-rv-j3c" firstAttribute="top" secondItem="fPW-pH-e0v" secondAttribute="bottom" constant="20" id="SpG-uS-dw8"/>
                             <constraint firstItem="ERi-dL-Tt2" firstAttribute="centerX" secondItem="q7B-cJ-ZZk" secondAttribute="centerX" id="eEi-vs-U2x"/>
@@ -577,10 +609,62 @@
             </objects>
             <point key="canvasLocation" x="1890" y="381"/>
         </scene>
-        <!--View Controller-->
+        <!--Random Facts-->
+        <scene sceneID="YzW-M3-R90">
+            <objects>
+                <viewController id="e5f-bV-f5b" customClass="RandomFacts" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZbY-hd-qKp"/>
+                        <viewControllerLayoutGuide type="bottom" id="I99-qj-hdL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4fj-97-eKl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="factBackground]" translatesAutoresizingMaskIntoConstraints="NO" id="eXZ-pm-rH3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fact Bank" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="33" translatesAutoresizingMaskIntoConstraints="NO" id="RQ1-6e-45P">
+                                <rect key="frame" x="16" y="72" width="343" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.89449304342269897" green="0.35891201421075442" blue="0.32618008910852608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="4" height="4"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftA-xO-1I6">
+                                <rect key="frame" x="16" y="408" width="343" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Brain"/>
+                                <connections>
+                                    <action selector="factsButton:" destination="e5f-bV-f5b" eventType="touchUpInside" id="qbl-YJ-UJs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gI9-es-ASZ">
+                                <rect key="frame" x="16" y="162" width="343" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.51220034246575341" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="3" height="3"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="factsLabel" destination="gI9-es-ASZ" id="lg7-kY-vFi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gsI-IL-9YA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-367.19999999999999" y="-577.06146926536735"/>
+        </scene>
+        <!--Random Generator-->
         <scene sceneID="QyW-6z-C4X">
             <objects>
-                <viewController id="CRo-ZD-evp" sceneMemberID="viewController">
+                <viewController id="CRo-ZD-evp" customClass="RandomGenerator" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OmW-Vd-EXB"/>
                         <viewControllerLayoutGuide type="bottom" id="BDn-Cv-4cq"/>
@@ -588,12 +672,48 @@
                     <view key="view" contentMode="scaleToFill" id="QzD-py-3xe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqh-El-V02">
+                                <rect key="frame" x="16" y="72" width="343" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ch5-2g-13E">
+                                <rect key="frame" x="16" y="194" width="343" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Random Number"/>
+                                <connections>
+                                    <action selector="randomNumberButton:" destination="CRo-ZD-evp" eventType="touchUpInside" id="ckx-ke-6xD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLb-VC-yE5">
+                                <rect key="frame" x="16" y="311" width="343" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Random Word"/>
+                                <connections>
+                                    <action selector="randomWordButton:" destination="CRo-ZD-evp" eventType="touchUpInside" id="xEa-rP-Lp4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOE-gO-19b">
+                                <rect key="frame" x="16" y="446" width="343" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="randomNumberLabel" destination="Eqh-El-V02" id="jbc-GY-oYG"/>
+                        <outlet property="randomWordLabel" destination="mOE-gO-19b" id="aPf-Uq-2TN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z6a-UZ-yJJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2567" y="383"/>
+            <point key="canvasLocation" x="436" y="-600.44977511244383"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SVm-M9-Wdv">
@@ -615,9 +735,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Brain" width="460" height="340"/>
         <image name="Road" width="1674" height="1902"/>
         <image name="TrafficLight" width="550" height="900"/>
         <image name="background" width="1317" height="969"/>
+        <image name="factBackground]" width="1920" height="1080"/>
         <image name="redButton" width="1353" height="1353"/>
     </resources>
 </document>
