@@ -17,12 +17,16 @@
 		8C2A35171F56C242005C5285 /* ShakeGestTutorials.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A35161F56C242005C5285 /* ShakeGestTutorials.m */; };
 		8C2A351A1F56C476005C5285 /* shakeMeSilly.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A35191F56C476005C5285 /* shakeMeSilly.m */; };
 		8C2A351C1F56C514005C5285 /* edosz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A351B1F56C514005C5285 /* edosz.ttf */; };
+		8C2A351F1F56EEA9005C5285 /* DelayedActionsTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A351E1F56EEA9005C5285 /* DelayedActionsTutorial.m */; };
 		8C4856111F559B4700E1364E /* UISwitches.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4856101F559B4700E1364E /* UISwitches.m */; };
 		8C4856141F55A10A00E1364E /* SegmentedControlsTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4856131F55A10A00E1364E /* SegmentedControlsTut.m */; };
 		8C4856171F55A56B00E1364E /* DigitalClockTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4856161F55A56B00E1364E /* DigitalClockTut.m */; };
 		8C4856191F55A8D500E1364E /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C4856181F55A8D500E1364E /* digital-7.ttf */; };
 		8C48561C1F55B66900E1364E /* UISlidersTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C48561B1F55B66900E1364E /* UISlidersTut.m */; };
 		8C48561F1F55B90E00E1364E /* TempCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C48561E1F55B90E00E1364E /* TempCalculator.m */; };
+		8CC86AAA1F56F139008EB850 /* CalculatorTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC86AA91F56F139008EB850 /* CalculatorTutorial.m */; };
+		8CC86AAE1F56FADE008EB850 /* SwipeTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC86AAD1F56FADE008EB850 /* SwipeTutorial.m */; };
+		8CF16CB81F57024000E50999 /* SimonSays.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF16CB71F57024000E50999 /* SimonSays.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,8 @@
 		8C2A35181F56C476005C5285 /* shakeMeSilly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shakeMeSilly.h; sourceTree = "<group>"; };
 		8C2A35191F56C476005C5285 /* shakeMeSilly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shakeMeSilly.m; sourceTree = "<group>"; };
 		8C2A351B1F56C514005C5285 /* edosz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = edosz.ttf; sourceTree = "<group>"; };
+		8C2A351D1F56EEA9005C5285 /* DelayedActionsTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayedActionsTutorial.h; sourceTree = "<group>"; };
+		8C2A351E1F56EEA9005C5285 /* DelayedActionsTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayedActionsTutorial.m; sourceTree = "<group>"; };
 		8C48560F1F559B4700E1364E /* UISwitches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwitches.h; sourceTree = "<group>"; };
 		8C4856101F559B4700E1364E /* UISwitches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISwitches.m; sourceTree = "<group>"; };
 		8C4856121F55A10A00E1364E /* SegmentedControlsTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedControlsTut.h; sourceTree = "<group>"; };
@@ -53,6 +59,12 @@
 		8C48561B1F55B66900E1364E /* UISlidersTut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISlidersTut.m; sourceTree = "<group>"; };
 		8C48561D1F55B90E00E1364E /* TempCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempCalculator.h; sourceTree = "<group>"; };
 		8C48561E1F55B90E00E1364E /* TempCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempCalculator.m; sourceTree = "<group>"; };
+		8CC86AA81F56F139008EB850 /* CalculatorTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorTutorial.h; sourceTree = "<group>"; };
+		8CC86AA91F56F139008EB850 /* CalculatorTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTutorial.m; sourceTree = "<group>"; };
+		8CC86AAC1F56FADE008EB850 /* SwipeTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTutorial.h; sourceTree = "<group>"; };
+		8CC86AAD1F56FADE008EB850 /* SwipeTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTutorial.m; sourceTree = "<group>"; };
+		8CF16CB61F57024000E50999 /* SimonSays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonSays.h; sourceTree = "<group>"; };
+		8CF16CB71F57024000E50999 /* SimonSays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonSays.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,14 @@
 				8C2A35161F56C242005C5285 /* ShakeGestTutorials.m */,
 				8C2A35181F56C476005C5285 /* shakeMeSilly.h */,
 				8C2A35191F56C476005C5285 /* shakeMeSilly.m */,
+				8C2A351D1F56EEA9005C5285 /* DelayedActionsTutorial.h */,
+				8C2A351E1F56EEA9005C5285 /* DelayedActionsTutorial.m */,
+				8CC86AA91F56F139008EB850 /* CalculatorTutorial.m */,
+				8CC86AA81F56F139008EB850 /* CalculatorTutorial.h */,
+				8CC86AAC1F56FADE008EB850 /* SwipeTutorial.h */,
+				8CC86AAD1F56FADE008EB850 /* SwipeTutorial.m */,
+				8CF16CB61F57024000E50999 /* SimonSays.h */,
+				8CF16CB71F57024000E50999 /* SimonSays.m */,
 				8C297E041F55966700439612 /* Main.storyboard */,
 				8C297E0A1F55966700439612 /* Assets.xcassets */,
 				8C297E0C1F55966700439612 /* LaunchScreen.storyboard */,
@@ -197,14 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC86AAA1F56F139008EB850 /* CalculatorTutorial.m in Sources */,
 				8C4856141F55A10A00E1364E /* SegmentedControlsTut.m in Sources */,
+				8CC86AAE1F56FADE008EB850 /* SwipeTutorial.m in Sources */,
 				8C2A351A1F56C476005C5285 /* shakeMeSilly.m in Sources */,
 				8C297E031F55966700439612 /* ViewController.m in Sources */,
 				8C48561C1F55B66900E1364E /* UISlidersTut.m in Sources */,
 				8C48561F1F55B90E00E1364E /* TempCalculator.m in Sources */,
+				8CF16CB81F57024000E50999 /* SimonSays.m in Sources */,
 				8C297E091F55966700439612 /* Tutorial_3.xcdatamodeld in Sources */,
 				8C4856171F55A56B00E1364E /* DigitalClockTut.m in Sources */,
 				8C4856111F559B4700E1364E /* UISwitches.m in Sources */,
+				8C2A351F1F56EEA9005C5285 /* DelayedActionsTutorial.m in Sources */,
 				8C2A35171F56C242005C5285 /* ShakeGestTutorials.m in Sources */,
 				8C297E001F55966700439612 /* AppDelegate.m in Sources */,
 				8C297DFD1F55966700439612 /* main.m in Sources */,
