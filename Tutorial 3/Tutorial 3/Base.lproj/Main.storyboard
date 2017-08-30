@@ -190,9 +190,9 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
-                                    <action selector="calculateTemp:" destination="bcR-Eu-8H4" eventType="editingDidEnd" id="3W7-ia-enV"/>
+                                    <action selector="calculateThem:" destination="bcR-Eu-8H4" eventType="editingDidEndOnExit" id="cvt-Lq-lfL"/>
                                 </connections>
                             </textField>
                         </subviews>

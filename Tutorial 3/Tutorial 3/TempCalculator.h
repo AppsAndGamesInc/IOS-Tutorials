@@ -15,7 +15,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *outputLabel;
 @property (strong, nonatomic) IBOutlet UISegmentedControl *tempSegmentControl;
 
-- (IBAction)calculateTemp:(id)sender;
 - (IBAction)tempSegmentAction:(id)sender;
+- (IBAction)calculateThem:(id)sender;
 
 @end
