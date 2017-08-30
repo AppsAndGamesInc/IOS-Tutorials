@@ -102,6 +102,20 @@
                                     <segue destination="bcR-Eu-8H4" kind="show" id="F3Y-Ak-MMb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yr0-cU-J37">
+                                <rect key="frame" x="87" y="374" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.033923613950000001" green="0.039418797079999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ehV-DP-Apw"/>
+                                    <constraint firstAttribute="height" constant="40" id="kKs-40-SmV"/>
+                                </constraints>
+                                <state key="normal" title="Shake Gestures">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0CV-ff-GO3" kind="show" id="llY-o1-I28"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -110,6 +124,8 @@
                             <constraint firstItem="apW-KI-hmy" firstAttribute="centerX" secondItem="jwA-8h-HvZ" secondAttribute="centerX" id="7R7-IG-d4a"/>
                             <constraint firstItem="pEd-Yg-38q" firstAttribute="top" secondItem="sPS-8N-J0e" secondAttribute="bottom" constant="8" id="A7C-fd-2MN"/>
                             <constraint firstItem="sPS-8N-J0e" firstAttribute="top" secondItem="apW-KI-hmy" secondAttribute="bottom" constant="8" id="AbP-i5-XI1"/>
+                            <constraint firstItem="Yr0-cU-J37" firstAttribute="centerX" secondItem="jwA-8h-HvZ" secondAttribute="centerX" id="B1y-gG-SbF"/>
+                            <constraint firstItem="Yr0-cU-J37" firstAttribute="top" secondItem="V8B-UN-QpW" secondAttribute="bottom" constant="8" id="Cw0-Af-kdN"/>
                             <constraint firstItem="pEd-Yg-38q" firstAttribute="centerX" secondItem="jwA-8h-HvZ" secondAttribute="centerX" id="Fb1-3v-qvY"/>
                             <constraint firstItem="sPS-8N-J0e" firstAttribute="centerX" secondItem="jwA-8h-HvZ" secondAttribute="centerX" id="H8J-JR-3Qe"/>
                             <constraint firstItem="apW-KI-hmy" firstAttribute="top" secondItem="iel-jV-WXC" secondAttribute="bottom" constant="70" id="KcF-Le-KRY"/>
@@ -228,6 +244,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="52r-5O-sNr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="240.80000000000001" y="1295.8020989505249"/>
+        </scene>
+        <!--Shake Gest Tutorials-->
+        <scene sceneID="ziu-EF-Lpc">
+            <objects>
+                <viewController id="0CV-ff-GO3" customClass="ShakeGestTutorials" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X3R-gl-vKT"/>
+                        <viewControllerLayoutGuide type="bottom" id="QjX-BB-4Gu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qyS-S7-8nn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1X-ys-UO0">
+                                <rect key="frame" x="16" y="256" width="343" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="shakeLabel" destination="T1X-ys-UO0" id="sLu-qr-Tvz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uPm-8k-qxR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="1295.8020989505249"/>
         </scene>
         <!--Sliders Tut-->
         <scene sceneID="cZ8-rQ-9y8">

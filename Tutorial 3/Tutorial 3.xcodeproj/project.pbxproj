@@ -14,6 +14,7 @@
 		8C297E091F55966700439612 /* Tutorial_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C297E071F55966700439612 /* Tutorial_3.xcdatamodeld */; };
 		8C297E0B1F55966700439612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C297E0A1F55966700439612 /* Assets.xcassets */; };
 		8C297E0E1F55966700439612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C297E0C1F55966700439612 /* LaunchScreen.storyboard */; };
+		8C2A35171F56C242005C5285 /* ShakeGestTutorials.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A35161F56C242005C5285 /* ShakeGestTutorials.m */; };
 		8C4856111F559B4700E1364E /* UISwitches.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4856101F559B4700E1364E /* UISwitches.m */; };
 		8C4856141F55A10A00E1364E /* SegmentedControlsTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4856131F55A10A00E1364E /* SegmentedControlsTut.m */; };
 		8C4856171F55A56B00E1364E /* DigitalClockTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4856161F55A56B00E1364E /* DigitalClockTut.m */; };
@@ -34,6 +35,8 @@
 		8C297E0A1F55966700439612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C297E0D1F55966700439612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C297E0F1F55966700439612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2A35151F56C242005C5285 /* ShakeGestTutorials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeGestTutorials.h; sourceTree = "<group>"; };
+		8C2A35161F56C242005C5285 /* ShakeGestTutorials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeGestTutorials.m; sourceTree = "<group>"; };
 		8C48560F1F559B4700E1364E /* UISwitches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwitches.h; sourceTree = "<group>"; };
 		8C4856101F559B4700E1364E /* UISwitches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISwitches.m; sourceTree = "<group>"; };
 		8C4856121F55A10A00E1364E /* SegmentedControlsTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedControlsTut.h; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				8C48561B1F55B66900E1364E /* UISlidersTut.m */,
 				8C48561D1F55B90E00E1364E /* TempCalculator.h */,
 				8C48561E1F55B90E00E1364E /* TempCalculator.m */,
+				8C2A35151F56C242005C5285 /* ShakeGestTutorials.h */,
+				8C2A35161F56C242005C5285 /* ShakeGestTutorials.m */,
 				8C297E041F55966700439612 /* Main.storyboard */,
 				8C297E0A1F55966700439612 /* Assets.xcassets */,
 				8C297E0C1F55966700439612 /* LaunchScreen.storyboard */,
@@ -190,6 +195,7 @@
 				8C297E091F55966700439612 /* Tutorial_3.xcdatamodeld in Sources */,
 				8C4856171F55A56B00E1364E /* DigitalClockTut.m in Sources */,
 				8C4856111F559B4700E1364E /* UISwitches.m in Sources */,
+				8C2A35171F56C242005C5285 /* ShakeGestTutorials.m in Sources */,
 				8C297E001F55966700439612 /* AppDelegate.m in Sources */,
 				8C297DFD1F55966700439612 /* main.m in Sources */,
 			);
