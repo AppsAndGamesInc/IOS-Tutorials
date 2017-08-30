@@ -15,6 +15,8 @@
 		8C297E0B1F55966700439612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C297E0A1F55966700439612 /* Assets.xcassets */; };
 		8C297E0E1F55966700439612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C297E0C1F55966700439612 /* LaunchScreen.storyboard */; };
 		8C2A35171F56C242005C5285 /* ShakeGestTutorials.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A35161F56C242005C5285 /* ShakeGestTutorials.m */; };
+		8C2A351A1F56C476005C5285 /* shakeMeSilly.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A35191F56C476005C5285 /* shakeMeSilly.m */; };
+		8C2A351C1F56C514005C5285 /* edosz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A351B1F56C514005C5285 /* edosz.ttf */; };
 		8C4856111F559B4700E1364E /* UISwitches.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4856101F559B4700E1364E /* UISwitches.m */; };
 		8C4856141F55A10A00E1364E /* SegmentedControlsTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4856131F55A10A00E1364E /* SegmentedControlsTut.m */; };
 		8C4856171F55A56B00E1364E /* DigitalClockTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4856161F55A56B00E1364E /* DigitalClockTut.m */; };
@@ -37,6 +39,9 @@
 		8C297E0F1F55966700439612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C2A35151F56C242005C5285 /* ShakeGestTutorials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeGestTutorials.h; sourceTree = "<group>"; };
 		8C2A35161F56C242005C5285 /* ShakeGestTutorials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeGestTutorials.m; sourceTree = "<group>"; };
+		8C2A35181F56C476005C5285 /* shakeMeSilly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shakeMeSilly.h; sourceTree = "<group>"; };
+		8C2A35191F56C476005C5285 /* shakeMeSilly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shakeMeSilly.m; sourceTree = "<group>"; };
+		8C2A351B1F56C514005C5285 /* edosz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = edosz.ttf; sourceTree = "<group>"; };
 		8C48560F1F559B4700E1364E /* UISwitches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwitches.h; sourceTree = "<group>"; };
 		8C4856101F559B4700E1364E /* UISwitches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISwitches.m; sourceTree = "<group>"; };
 		8C4856121F55A10A00E1364E /* SegmentedControlsTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedControlsTut.h; sourceTree = "<group>"; };
@@ -92,6 +97,8 @@
 				8C48561E1F55B90E00E1364E /* TempCalculator.m */,
 				8C2A35151F56C242005C5285 /* ShakeGestTutorials.h */,
 				8C2A35161F56C242005C5285 /* ShakeGestTutorials.m */,
+				8C2A35181F56C476005C5285 /* shakeMeSilly.h */,
+				8C2A35191F56C476005C5285 /* shakeMeSilly.m */,
 				8C297E041F55966700439612 /* Main.storyboard */,
 				8C297E0A1F55966700439612 /* Assets.xcassets */,
 				8C297E0C1F55966700439612 /* LaunchScreen.storyboard */,
@@ -109,6 +116,7 @@
 		8C297DFB1F55966700439612 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8C2A351B1F56C514005C5285 /* edosz.ttf */,
 				8C4856181F55A8D500E1364E /* digital-7.ttf */,
 				8C297DFC1F55966700439612 /* main.m */,
 			);
@@ -175,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C297E0E1F55966700439612 /* LaunchScreen.storyboard in Resources */,
+				8C2A351C1F56C514005C5285 /* edosz.ttf in Resources */,
 				8C297E0B1F55966700439612 /* Assets.xcassets in Resources */,
 				8C297E061F55966700439612 /* Main.storyboard in Resources */,
 				8C4856191F55A8D500E1364E /* digital-7.ttf in Resources */,
@@ -189,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4856141F55A10A00E1364E /* SegmentedControlsTut.m in Sources */,
+				8C2A351A1F56C476005C5285 /* shakeMeSilly.m in Sources */,
 				8C297E031F55966700439612 /* ViewController.m in Sources */,
 				8C48561C1F55B66900E1364E /* UISlidersTut.m in Sources */,
 				8C48561F1F55B90E00E1364E /* TempCalculator.m in Sources */,

@@ -44,6 +44,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>digital-7.ttf</string>
+		<string>edosz.ttf</string>
 	</array>
 </dict>
 </plist>
