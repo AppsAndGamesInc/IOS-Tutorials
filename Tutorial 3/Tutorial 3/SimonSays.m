@@ -37,8 +37,8 @@
 	simonScoreInt =0;
 	simonModInt = 0;
 	
-	self.simonTimeLabel.text = [NSString stringWithFormat:@"%i", simonTimeInt];
-	self.simonScoreLabel.text = [NSString stringWithFormat:@"%i", simonScoreInt];
+	self.simonTimeLabel.text = [NSString stringWithFormat:@"Time: %i", simonTimeInt];
+	self.simonScoreLabel.text = [NSString stringWithFormat:@"Score: %i", simonScoreInt];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,20 +54,24 @@
 	
 	[simonGameTimer invalidate];
 	simonTimeInt = 20;
-	self.simonTimeLabel.text = [NSString stringWithFormat:@"%i", simonTimeInt];
+	self.simonTimeLabel.text = [NSString stringWithFormat:@"Time: %i", simonTimeInt];
 	
 	simonModInt = 1;
 	
 	if (simonTimeInt == 20) {
 		simonGameTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(simonUpdateTimer) userInfo:nil repeats:YES];
+		[self simonSays];
 	}
 }
 
 -(void)simonUpdateTimer{
 	simonTimeInt -= 1;
-	self.simonTimeLabel.text = [NSString stringWithFormat:@"%i", simonTimeInt ];
+	self.simonTimeLabel.text = [NSString stringWithFormat:@"Time: %i", simonTimeInt ];
 	if (simonTimeInt == 0) {
 		[simonGameTimer invalidate];
+		[simonTimer invalidate];
+		
+		self.simonSaysLabel.text = @"Game Over";
 		
 		self.simonStartGame.enabled = YES;
 		self.simonStartGame.alpha = 1;
@@ -75,7 +79,64 @@
 	}
 }
 
+-(void)simonSays {
+	NSArray *simonArray = @[@"Simon Says Swipe Left",@"Simon Says Swipe Right",@"Simon Says Swipe Up", @"Simon Says Swipe Down",@"Swipe Left",@"Swipe Right",@"Swipe Up", @"Swipe Down"];
+	int randomWord = arc4random() %simonArray.count;
+	self.simonSaysLabel.text = simonArray[randomWord];
+	simonTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(simonSays) userInfo:nil repeats:NO];
+}
+
 -(void)simonHandleSwipes:(UISwipeGestureRecognizer *)sender {
+	if (simonModInt == 1) {
+		if (sender.direction == UISwipeGestureRecognizerDirectionLeft) {
+			[simonTimer invalidate];
+			if ([self.simonSaysLabel.text isEqualToString:@"Simon Says Swipe Left"]) {
+				simonScoreInt += 1;
+				self.simonScoreLabel.text = [NSString stringWithFormat:@"%i", simonScoreInt];
+				[self simonSays];
+			} else {
+				simonScoreInt -= 1;
+				self.simonScoreLabel.text = [NSString stringWithFormat:@"%i", simonScoreInt];
+				[self simonSays];
+			}
+		}
+		if (sender.direction == UISwipeGestureRecognizerDirectionRight) {
+			[simonTimer invalidate];
+			if ([self.simonSaysLabel.text isEqualToString:@"Simon Says Swipe Right"]) {
+				simonScoreInt += 1;
+				self.simonScoreLabel.text = [NSString stringWithFormat:@"%i", simonScoreInt];
+				[self simonSays];
+			} else {
+				simonScoreInt -= 1;
+				self.simonScoreLabel.text = [NSString stringWithFormat:@"%i", simonScoreInt];
+				[self simonSays];
+			}
+		}
+		if (sender.direction == UISwipeGestureRecognizerDirectionUp) {
+			[simonTimer invalidate];
+			if ([self.simonSaysLabel.text isEqualToString:@"Simon Says Swipe Up"]) {
+				simonScoreInt += 1;
+				self.simonScoreLabel.text = [NSString stringWithFormat:@"%i", simonScoreInt];
+				[self simonSays];
+			} else {
+				simonScoreInt -= 1;
+				self.simonScoreLabel.text = [NSString stringWithFormat:@"%i", simonScoreInt];
+				[self simonSays];
+			}
+		}
+		if (sender.direction == UISwipeGestureRecognizerDirectionDown) {
+			[simonTimer invalidate];
+			if ([self.simonSaysLabel.text isEqualToString:@"Simon Says Swipe Down"]) {
+				simonScoreInt += 1;
+				self.simonScoreLabel.text = [NSString stringWithFormat:@"%i", simonScoreInt];
+				[self simonSays];
+			} else {
+				simonScoreInt -= 1;
+				self.simonScoreLabel.text = [NSString stringWithFormat:@"%i", simonScoreInt];
+				[self simonSays];
+			}
+		}
+	}
 	
 	
 }
