@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2E93A01F5D6A53008DB8DA /* MapViewtutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E939F1F5D6A53008DB8DA /* MapViewtutorial.m */; };
+		8C2E93A31F5D6C6A008DB8DA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2E93A21F5D6C6A008DB8DA /* MapKit.framework */; };
 		8C6F3C381F5842FA00F7E7ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F3C371F5842FA00F7E7ED /* main.m */; };
 		8C6F3C3B1F5842FA00F7E7ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F3C3A1F5842FA00F7E7ED /* AppDelegate.m */; };
 		8C6F3C3E1F5842FA00F7E7ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F3C3D1F5842FA00F7E7ED /* ViewController.m */; };
@@ -17,9 +19,13 @@
 		8C6F3C521F58458700F7E7ED /* UIScrollViewsTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F3C511F58458700F7E7ED /* UIScrollViewsTut.m */; };
 		8C6F3C551F584B9D00F7E7ED /* UIViewstuto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F3C541F584B9D00F7E7ED /* UIViewstuto.m */; };
 		8C6F3C581F585E2500F7E7ED /* UIAlertViewTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F3C571F585E2500F7E7ED /* UIAlertViewTut.m */; };
+		8CA630951F5D3ADB00B8470D /* StoryBoardViewsTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA630941F5D3ADB00B8470D /* StoryBoardViewsTut.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C2E939E1F5D6A53008DB8DA /* MapViewtutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewtutorial.h; sourceTree = "<group>"; };
+		8C2E939F1F5D6A53008DB8DA /* MapViewtutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewtutorial.m; sourceTree = "<group>"; };
+		8C2E93A21F5D6C6A008DB8DA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8C6F3C331F5842FA00F7E7ED /* Tutorial 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6F3C371F5842FA00F7E7ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C6F3C391F5842FA00F7E7ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +43,8 @@
 		8C6F3C541F584B9D00F7E7ED /* UIViewstuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewstuto.m; sourceTree = "<group>"; };
 		8C6F3C561F585E2500F7E7ED /* UIAlertViewTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertViewTut.h; sourceTree = "<group>"; };
 		8C6F3C571F585E2500F7E7ED /* UIAlertViewTut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewTut.m; sourceTree = "<group>"; };
+		8CA630931F5D3ADB00B8470D /* StoryBoardViewsTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryBoardViewsTut.h; sourceTree = "<group>"; };
+		8CA630941F5D3ADB00B8470D /* StoryBoardViewsTut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryBoardViewsTut.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,17 +52,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2E93A31F5D6C6A008DB8DA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C2E93A11F5D6C69008DB8DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C2E93A21F5D6C6A008DB8DA /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8C6F3C2A1F5842FA00F7E7ED = {
 			isa = PBXGroup;
 			children = (
 				8C6F3C351F5842FA00F7E7ED /* Tutorial 4 */,
 				8C6F3C341F5842FA00F7E7ED /* Products */,
+				8C2E93A11F5D6C69008DB8DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +97,10 @@
 				8C6F3C541F584B9D00F7E7ED /* UIViewstuto.m */,
 				8C6F3C561F585E2500F7E7ED /* UIAlertViewTut.h */,
 				8C6F3C571F585E2500F7E7ED /* UIAlertViewTut.m */,
+				8CA630931F5D3ADB00B8470D /* StoryBoardViewsTut.h */,
+				8CA630941F5D3ADB00B8470D /* StoryBoardViewsTut.m */,
+				8C2E939E1F5D6A53008DB8DA /* MapViewtutorial.h */,
+				8C2E939F1F5D6A53008DB8DA /* MapViewtutorial.m */,
 				8C6F3C3F1F5842FA00F7E7ED /* Main.storyboard */,
 				8C6F3C451F5842FA00F7E7ED /* Assets.xcassets */,
 				8C6F3C471F5842FA00F7E7ED /* LaunchScreen.storyboard */,
@@ -172,6 +194,8 @@
 				8C6F3C3E1F5842FA00F7E7ED /* ViewController.m in Sources */,
 				8C6F3C581F585E2500F7E7ED /* UIAlertViewTut.m in Sources */,
 				8C6F3C3B1F5842FA00F7E7ED /* AppDelegate.m in Sources */,
+				8CA630951F5D3ADB00B8470D /* StoryBoardViewsTut.m in Sources */,
+				8C2E93A01F5D6A53008DB8DA /* MapViewtutorial.m in Sources */,
 				8C6F3C551F584B9D00F7E7ED /* UIViewstuto.m in Sources */,
 				8C6F3C441F5842FA00F7E7ED /* Tutorial_4.xcdatamodeld in Sources */,
 				8C6F3C381F5842FA00F7E7ED /* main.m in Sources */,
@@ -336,6 +360,7 @@
 				8C6F3C4F1F5842FA00F7E7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
