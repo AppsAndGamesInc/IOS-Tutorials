@@ -14,6 +14,15 @@
 		8C2E93BE1F5D711A008DB8DA /* Tutorial_5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E93BC1F5D711A008DB8DA /* Tutorial_5.xcdatamodeld */; };
 		8C2E93C01F5D711A008DB8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E93BF1F5D711A008DB8DA /* Assets.xcassets */; };
 		8C2E93C31F5D711A008DB8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E93C11F5D711A008DB8DA /* LaunchScreen.storyboard */; };
+		8C2E93CC1F5D7728008DB8DA /* DisplayImageTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E93CB1F5D7728008DB8DA /* DisplayImageTut.m */; };
+		8C2E93CF1F5D7B33008DB8DA /* ImageGalleryTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E93CE1F5D7B33008DB8DA /* ImageGalleryTut.m */; };
+		8C2E93D21F5D7F72008DB8DA /* ImageButtonsTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E93D11F5D7F72008DB8DA /* ImageButtonsTut.m */; };
+		8C2E93D51F5D85EA008DB8DA /* ImageFromURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E93D41F5D85EA008DB8DA /* ImageFromURL.m */; };
+		8C2E93D81F5D8972008DB8DA /* SnapImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E93D71F5D8972008DB8DA /* SnapImage.m */; };
+		8C2E93DB1F5D8B52008DB8DA /* Cheveuxdange.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E93D91F5D8B52008DB8DA /* Cheveuxdange.ttf */; };
+		8C2E93DC1F5D8B52008DB8DA /* DK Cinnabar Brush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E93DA1F5D8B52008DB8DA /* DK Cinnabar Brush.ttf */; };
+		8C2E93DF1F5D985D008DB8DA /* PDFTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E93DE1F5D985D008DB8DA /* PDFTut.m */; };
+		8C2E93E11F5D9A63008DB8DA /* idm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E93E01F5D9A63008DB8DA /* idm.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,21 @@
 		8C2E93BF1F5D711A008DB8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C2E93C21F5D711A008DB8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C2E93C41F5D711A008DB8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2E93CA1F5D7728008DB8DA /* DisplayImageTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayImageTut.h; sourceTree = "<group>"; };
+		8C2E93CB1F5D7728008DB8DA /* DisplayImageTut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayImageTut.m; sourceTree = "<group>"; };
+		8C2E93CD1F5D7B33008DB8DA /* ImageGalleryTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGalleryTut.h; sourceTree = "<group>"; };
+		8C2E93CE1F5D7B33008DB8DA /* ImageGalleryTut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGalleryTut.m; sourceTree = "<group>"; };
+		8C2E93D01F5D7F72008DB8DA /* ImageButtonsTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageButtonsTut.h; sourceTree = "<group>"; };
+		8C2E93D11F5D7F72008DB8DA /* ImageButtonsTut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageButtonsTut.m; sourceTree = "<group>"; };
+		8C2E93D31F5D85EA008DB8DA /* ImageFromURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFromURL.h; sourceTree = "<group>"; };
+		8C2E93D41F5D85EA008DB8DA /* ImageFromURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFromURL.m; sourceTree = "<group>"; };
+		8C2E93D61F5D8972008DB8DA /* SnapImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapImage.h; sourceTree = "<group>"; };
+		8C2E93D71F5D8972008DB8DA /* SnapImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapImage.m; sourceTree = "<group>"; };
+		8C2E93D91F5D8B52008DB8DA /* Cheveuxdange.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cheveuxdange.ttf; path = "../../../../../Snap Attack Rescourses/Cheveuxdange.ttf"; sourceTree = "<group>"; };
+		8C2E93DA1F5D8B52008DB8DA /* DK Cinnabar Brush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DK Cinnabar Brush.ttf"; path = "../../../../../Snap Attack Rescourses/DK Cinnabar Brush.ttf"; sourceTree = "<group>"; };
+		8C2E93DD1F5D985D008DB8DA /* PDFTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTut.h; sourceTree = "<group>"; };
+		8C2E93DE1F5D985D008DB8DA /* PDFTut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFTut.m; sourceTree = "<group>"; };
+		8C2E93E01F5D9A63008DB8DA /* idm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = idm.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +88,18 @@
 				8C2E93B41F5D711A008DB8DA /* AppDelegate.m */,
 				8C2E93B61F5D711A008DB8DA /* ViewController.h */,
 				8C2E93B71F5D711A008DB8DA /* ViewController.m */,
+				8C2E93CA1F5D7728008DB8DA /* DisplayImageTut.h */,
+				8C2E93CB1F5D7728008DB8DA /* DisplayImageTut.m */,
+				8C2E93CD1F5D7B33008DB8DA /* ImageGalleryTut.h */,
+				8C2E93CE1F5D7B33008DB8DA /* ImageGalleryTut.m */,
+				8C2E93D01F5D7F72008DB8DA /* ImageButtonsTut.h */,
+				8C2E93D11F5D7F72008DB8DA /* ImageButtonsTut.m */,
+				8C2E93D31F5D85EA008DB8DA /* ImageFromURL.h */,
+				8C2E93D41F5D85EA008DB8DA /* ImageFromURL.m */,
+				8C2E93D61F5D8972008DB8DA /* SnapImage.h */,
+				8C2E93D71F5D8972008DB8DA /* SnapImage.m */,
+				8C2E93DD1F5D985D008DB8DA /* PDFTut.h */,
+				8C2E93DE1F5D985D008DB8DA /* PDFTut.m */,
 				8C2E93B91F5D711A008DB8DA /* Main.storyboard */,
 				8C2E93BF1F5D711A008DB8DA /* Assets.xcassets */,
 				8C2E93C11F5D711A008DB8DA /* LaunchScreen.storyboard */,
@@ -77,6 +113,9 @@
 		8C2E93B01F5D711A008DB8DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8C2E93E01F5D9A63008DB8DA /* idm.pdf */,
+				8C2E93D91F5D8B52008DB8DA /* Cheveuxdange.ttf */,
+				8C2E93DA1F5D8B52008DB8DA /* DK Cinnabar Brush.ttf */,
 				8C2E93B11F5D711A008DB8DA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,9 +180,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2E93DC1F5D8B52008DB8DA /* DK Cinnabar Brush.ttf in Resources */,
 				8C2E93C31F5D711A008DB8DA /* LaunchScreen.storyboard in Resources */,
 				8C2E93C01F5D711A008DB8DA /* Assets.xcassets in Resources */,
+				8C2E93E11F5D9A63008DB8DA /* idm.pdf in Resources */,
 				8C2E93BB1F5D711A008DB8DA /* Main.storyboard in Resources */,
+				8C2E93DB1F5D8B52008DB8DA /* Cheveuxdange.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +198,13 @@
 			files = (
 				8C2E93B81F5D711A008DB8DA /* ViewController.m in Sources */,
 				8C2E93B51F5D711A008DB8DA /* AppDelegate.m in Sources */,
+				8C2E93D21F5D7F72008DB8DA /* ImageButtonsTut.m in Sources */,
+				8C2E93D51F5D85EA008DB8DA /* ImageFromURL.m in Sources */,
+				8C2E93CF1F5D7B33008DB8DA /* ImageGalleryTut.m in Sources */,
 				8C2E93B21F5D711A008DB8DA /* main.m in Sources */,
+				8C2E93DF1F5D985D008DB8DA /* PDFTut.m in Sources */,
+				8C2E93D81F5D8972008DB8DA /* SnapImage.m in Sources */,
+				8C2E93CC1F5D7728008DB8DA /* DisplayImageTut.m in Sources */,
 				8C2E93BE1F5D711A008DB8DA /* Tutorial_5.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
