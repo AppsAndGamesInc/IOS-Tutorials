@@ -23,6 +23,8 @@
 		8C2E93DC1F5D8B52008DB8DA /* DK Cinnabar Brush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E93DA1F5D8B52008DB8DA /* DK Cinnabar Brush.ttf */; };
 		8C2E93DF1F5D985D008DB8DA /* PDFTut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E93DE1F5D985D008DB8DA /* PDFTut.m */; };
 		8C2E93E11F5D9A63008DB8DA /* idm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E93E01F5D9A63008DB8DA /* idm.pdf */; };
+		8C3E1AC81F5E9470009F0B8B /* BackgroundColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E1AC71F5E9470009F0B8B /* BackgroundColors.m */; };
+		8C3E1ACB1F5EC4D2009F0B8B /* BananaDance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E1ACA1F5EC4D2009F0B8B /* BananaDance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,10 @@
 		8C2E93DD1F5D985D008DB8DA /* PDFTut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTut.h; sourceTree = "<group>"; };
 		8C2E93DE1F5D985D008DB8DA /* PDFTut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFTut.m; sourceTree = "<group>"; };
 		8C2E93E01F5D9A63008DB8DA /* idm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = idm.pdf; sourceTree = "<group>"; };
+		8C3E1AC61F5E9470009F0B8B /* BackgroundColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundColors.h; sourceTree = "<group>"; };
+		8C3E1AC71F5E9470009F0B8B /* BackgroundColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundColors.m; sourceTree = "<group>"; };
+		8C3E1AC91F5EC4D2009F0B8B /* BananaDance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BananaDance.h; sourceTree = "<group>"; };
+		8C3E1ACA1F5EC4D2009F0B8B /* BananaDance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BananaDance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,10 @@
 				8C2E93D71F5D8972008DB8DA /* SnapImage.m */,
 				8C2E93DD1F5D985D008DB8DA /* PDFTut.h */,
 				8C2E93DE1F5D985D008DB8DA /* PDFTut.m */,
+				8C3E1AC61F5E9470009F0B8B /* BackgroundColors.h */,
+				8C3E1AC71F5E9470009F0B8B /* BackgroundColors.m */,
+				8C3E1AC91F5EC4D2009F0B8B /* BananaDance.h */,
+				8C3E1ACA1F5EC4D2009F0B8B /* BananaDance.m */,
 				8C2E93B91F5D711A008DB8DA /* Main.storyboard */,
 				8C2E93BF1F5D711A008DB8DA /* Assets.xcassets */,
 				8C2E93C11F5D711A008DB8DA /* LaunchScreen.storyboard */,
@@ -204,7 +214,9 @@
 				8C2E93B21F5D711A008DB8DA /* main.m in Sources */,
 				8C2E93DF1F5D985D008DB8DA /* PDFTut.m in Sources */,
 				8C2E93D81F5D8972008DB8DA /* SnapImage.m in Sources */,
+				8C3E1ACB1F5EC4D2009F0B8B /* BananaDance.m in Sources */,
 				8C2E93CC1F5D7728008DB8DA /* DisplayImageTut.m in Sources */,
+				8C3E1AC81F5E9470009F0B8B /* BackgroundColors.m in Sources */,
 				8C2E93BE1F5D711A008DB8DA /* Tutorial_5.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +378,7 @@
 				8C2E93C91F5D711A008DB8DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
